@@ -13,7 +13,7 @@ public class Calculator {
     }
 
     public BigDecimal mul(BigDecimal a, BigDecimal b){
-        return a.multiply(b);
+        return a.multiply(b).setScale(1);
     }
 
     public BigDecimal div(BigDecimal a, BigDecimal b){
